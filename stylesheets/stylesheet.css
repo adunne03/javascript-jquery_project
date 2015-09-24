@@ -1,0 +1,19 @@
+#container {
+	height: 1160px;
+	width: 1115px;
+	text-align: center;
+}
+
+
+.grid {
+	height: 100px;
+	width: 100px;
+	margin: 10px 10px 10px 0;
+	background-color: blue;
+	display: inline-block;
+}
+
+.active {
+	background-color: blue;
+	opacity: 0.5;
+}
