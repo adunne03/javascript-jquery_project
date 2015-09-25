@@ -1,7 +1,7 @@
 #container {
 	height: 100px;
 	width: 100px;
-	text-align: center;
+	margin: 0 auto;
 	font-size: 0;
 }
 
@@ -10,21 +10,25 @@
 	height: 10px;
 	width: 10px;
 	margin: 0;
-	background-color: blue;
+	background-color: #405952;
 	display: inline-block;
 
 }
 
 .active {
-	background-color: blue;
-	opacity: 0.5;
+	background-color: #9C9B7A;
+}
+
+#menu {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
 }
 
 button {
 	height: 30px;
-	width: 80px;
 	text-align: center;
 	font-size: 12px;
-	font-family: Georgia;
-	margin: 10px 10px 10px 10px;
+	font-family: Helvetica;
+	padding: 5px;
 }
